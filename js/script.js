@@ -44,5 +44,5 @@ for (let i = 0; i < team.length; i++) {
 	console.log(team_member.role);
 	console.log(team_member.img);
 	//MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe
-	container.innerHTML += `<p>${team_member.name} ${team_member.role} ${team_member.img}</p>`;
+	container.innerHTML += `<p>${team_member.name} ${team_member.role} <img src="./img/${team_member.img}"></p>`;
 }
